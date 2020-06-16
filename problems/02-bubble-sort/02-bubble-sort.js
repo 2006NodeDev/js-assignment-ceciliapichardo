@@ -2,9 +2,8 @@
  * Date: June 16, 2020
  * Bubble Sort
  *      - Repeatedly swaps adjacent elements if they are in wrong order
-Define function: bubbleSort(numArray)
-Use the bubble sort algorithm to sort the array.
-Return the sorted array. */
+ *      - Continues until array is sorted
+ */
 
 //Sample array
 let array = [8, 7, 6, 5, 4, 10]
