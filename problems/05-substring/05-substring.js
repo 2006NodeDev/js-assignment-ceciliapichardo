@@ -1,8 +1,14 @@
-/* 5. Substring
-Define function substring(someStr, startIndex, endIndex)
-Return the substring contained between startIndex (inclusive) and endIndex (exclusive).
-If incorrect input is entered, throw an exception stating the input was incorrect.
-For example substring('hello', 0, 3) should give 'hel' */
-function substring(someStr, startIndex, endIndex) {
+/* Author: Cecilia Pichardo
+ * Date: June 18, 2020
+ * Substring
+ *      - Finds substring of text contained between the start and end indices 
+ */
 
+//Function returns the substring between the startIndex and endIndex
+function substring(someStr, startIndex, endIndex) {
+    var stringArr = someStr.split("")
+    return stringArr.splice(startIndex,endIndex).join("")
 }
+
+//Output to console
+console.log(substring('Hello World', 0, 8));
